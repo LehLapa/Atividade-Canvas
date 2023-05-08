@@ -13,3 +13,8 @@ ctx.moveTo(95, 65);
 ctx.arc(90, 65, 5, 0, Math.PI * 2, true);
 ctx.stroke();
 
+ctx.fillStyle = 'red';
+ctx.beginPath();
+ctx.moveTo(20, 150);
+ctx.lineTo(130, 150);
+ctx.stroke();
