@@ -1,20 +1,31 @@
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
-ctx.fillStyle = 'green';
-ctx.fillRect (150, 10, 150, 100);
-
+const canvas1 = document.getElementById ('canvas1');
+const ctx = canvas1.getContext ('2d');
 ctx.beginPath();
-ctx.arc(75, 75, 50, 0, Math.PI * 2, true);
+ctx.arc(150, 75, 50, 0, Math.PI * 2, true);
 ctx.moveTo(110, 75);
-ctx.arc(75, 75, 35, 0, Math.PI, false);
+ctx.arc(150, 75, 35, 0, Math.PI, false);
 ctx.moveTo(65, 65);
-ctx.arc(60, 65, 5, 0, Math.PI * 2, true);
+ctx.arc(170, 65, 5, 0, Math.PI * 2, true);
 ctx.moveTo(95, 65);
-ctx.arc(90, 65, 5, 0, Math.PI * 2, true);
+ctx.arc(130, 65, 5, 0, Math.PI * 2, true);
 ctx.stroke();
 
-ctx.fillStyle = 'red';
-ctx.beginPath();
-ctx.moveTo(20, 150);
-ctx.lineTo(130, 150);
-ctx.stroke();
+const canvas2 = document.getElementById('canvas2');
+const ctx2 = canvas2.getContext('2d');
+ctx2.fillStyle = 'green';
+ctx2.fillRect (77, 10, 150, 100);
+
+const canvas3 = document.getElementById ('canvas3');
+const ctx3 = canvas3.getContext ('2d');
+ctx3.strokeStyle = 'black';
+ctx3.beginPath();
+ctx3.moveTo(20, 150);
+ctx3.lineTo(130, 150);
+ctx3.stroke();
+
+const canvas4 = document.getElementById ('canvas4');
+const ctx4 = canvas4.getContext ('2d');
+ctx4.beginPath();
+ctx4.arc(300, 75, 50, 0, Math.PI * 2, true);
+ctx4.moveTo(200, 100);
+ctx4.stroke();
