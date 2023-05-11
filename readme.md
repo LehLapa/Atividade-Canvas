@@ -35,4 +35,4 @@ Criação do arquivo JS
 Finalização do arquivo JS
 
 Prints da página: 
-<img src="img/canvas1.jpg" width=631px height=20px>
+<img src="img/canvas1.png" width=631px height=20px>
