@@ -34,3 +34,8 @@ const canvas5 = document.getElementById('canvas5');
 const ctx5 = canvas5.getContext('2d');
 ctx5.arc(150, 75, 20, 0, Math.PI * 75, true);
 ctx5.stroke();
+
+const canvas6 = getElementById('canvas6');
+document.onload = function insertImg() {
+    document.getElementById('rosa').src = "img/rosa.jpg";
+}
