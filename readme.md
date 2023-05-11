@@ -2,21 +2,21 @@ README.md do repositório Atividade-Canvas
 
 Criação do arquivo HTML
     Configuração do idioma do HTML
-    Configuração do cabeçalho (<head>)
-        O comando <title> define o título do site ("Atv Canvas")
-        O comando <meta charset> define a leitura de caracteres especiais
-        O comando <meta name="viewport"> define a escala do site
-        O comando <meta name="description"> define a descrição do site com o título e data da criação
-        O comando <link rel="stylesheet" href="css/style.css"/> conecta o HTML com o arquivo "style.css"
-        O comando <link rel="shortcut icon" href="img/icon.png"/> coloca um ícone no site do arquivo
-    Finalização do cabeçalho (</head>)
-    Configuração do corpo (<body>)
-        O comando (<h1>) é usado para exibir o título "Atividade Canvas"
-        Os comandos (<div>) criam divisórias para conter o comando (<canvas>)
-        Os comandos (<canvas>) definem o canvas, cada um contendo uma forma diferente
-        O comando (<script src="js/script.js"></script>) conecta o HTML com o arquivo "script.js"
-    Finalização do corpo (</body>)
-Finalização do arquivo HTML (</html>)
+    Configuração do cabeçalho (head)
+        O comando (title) define o título do site ("Atv Canvas")
+        O comando (meta charset) define a leitura de caracteres especiais
+        O comando (meta name="viewport") define a escala do site
+        O comando (meta name="description") define a descrição do site com o título e data da criação
+        O comando (link rel="stylesheet" href="css/style.css"/) conecta o HTML com o arquivo "style.css"
+        O comando (link rel="shortcut icon" href="img/icon.png"/) coloca um ícone no site do arquivo
+    Finalização do cabeçalho (head)
+    Configuração do corpo (body)
+        O comando (h1) é usado para exibir o título "Atividade Canvas"
+        Os comandos (div) criam divisórias para conter o comando (canvas)
+        Os comandos (canvas) definem o canvas, cada um contendo uma forma diferente
+        O comando (script src="js/script.js") conecta o HTML com o arquivo "script.js"
+    Finalização do corpo (body)
+Finalização do arquivo HTML (html)
 Criação do arquivo CSS
     O comando margin define a margem dos quatro lados do elemento
     O comando padding define a margem entre o conteúdo dos elementos e suas bordas
