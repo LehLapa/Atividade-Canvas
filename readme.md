@@ -33,3 +33,6 @@ Criação do arquivo JS
     O comando (fillRect) cria o retângulo com as coordenadas de cada ponto em x e y
     O comando (fillStyle) define a cor do retângulo como verde
 Finalização do arquivo JS
+
+Prints da página: 
+<img src="img/canvas1.jpg" width=631px height=20px>
