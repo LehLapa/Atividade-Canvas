@@ -26,6 +26,11 @@ ctx3.stroke();
 const canvas4 = document.getElementById ('canvas4');
 const ctx4 = canvas4.getContext ('2d');
 ctx4.beginPath();
-ctx4.arc(300, 75, 50, 0, Math.PI * 2, true);
+ctx4.arc(150, 75, 50, 0, Math.PI * 2, true);
 ctx4.moveTo(200, 100);
 ctx4.stroke();
+
+const canvas5 = document.getElementById('canvas5');
+const ctx5 = canvas5.getContext('2d');
+ctx5.arc(150, 75, 20, 0, Math.PI * 75, true);
+ctx5.stroke();
