@@ -21,6 +21,8 @@ Criação do arquivo CSS
     O comando margin define a margem dos quatro lados do elemento
     O comando padding define a margem entre o conteúdo dos elementos e suas bordas
     O comando text-align centraliza os elementos da página
+    O comando background muda a cor do fundo da página usando RGB para um tom de cinza
+    O comando font-family muda a fonte dos itens da página para Trebuchet MS
 Finalização do arquivo CSS
 Criação do arquivo JS
     Os comandos const definem constantes, as constantes noemadas como "canvas" ligam com o HTML e são usadas para a criação das constantes "ctx", que são usadas para fazer as formas
@@ -36,3 +38,4 @@ Finalização do arquivo JS
 
 Prints da página: 
 <img src="img/canvas1.png" width=631px height=20px>
+<img src="img/canvas2.png" width=631px height=20px>

@@ -35,7 +35,15 @@ const ctx5 = canvas5.getContext('2d');
 ctx5.arc(150, 75, 20, 0, Math.PI * 75, true);
 ctx5.stroke();
 
-const canvas6 = getElementById('canvas6');
+const canvas6 = document.getElementById('canvas6');
+const ctx6 = canvas6.getContext('2d');
+ctx6.beginPath();
+ctx6.moveTo(75,50);
+ctx6.lineTo(100,75);
+ctx6.lineTo(100,25);
+ctx6.fill();
+
+const canvas7 = getElementById('canvas7');
 document.onload = function insertImg() {
     document.getElementById('rosa').src = "img/rosa.jpg";
 }
