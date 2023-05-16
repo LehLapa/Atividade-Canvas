@@ -32,7 +32,8 @@ ctx4.stroke();
 
 const canvas5 = document.getElementById('canvas5');
 const ctx5 = canvas5.getContext('2d');
-ctx5.quadraticCurveTo(25, 25, 60, 100);
+ctx5.moveTo(50, 20);
+ctx5.quadraticCurveTo(230, 30, 50, 100);
 ctx5.stroke();
 
 const canvas6 = document.getElementById('canvas6');
@@ -43,15 +44,9 @@ ctx6.lineTo(100,75);
 ctx6.lineTo(100,25);
 ctx6.fill();
 
-function drawn() {
-var canvas7 = getElementById('canvas7').getContext('2d');
+var canvas7 = document.getElementById('canvas7').getContext('2d');
 var img = new Image();
-img.onload = fuction() {
-    for (var i = 0; i < 4; i++){
-        for (var j = 0; j < 3; j++ ) {
-            canvas7.drawnImage(img, j * 50, i * 38, 50, 38);
-        }
-    }
+img.onload = function() {
+            canvas7.drawImage(img, 50, 38);
 };
-img.src = 'rosa.jpg';
-}
+img.src = 'img/rosa.jpg';

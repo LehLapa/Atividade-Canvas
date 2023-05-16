@@ -34,6 +34,8 @@ Criação do arquivo JS
     O comando (stroke) tira a cor das formas, deixando apenas as bordas
     O comando (fillRect) cria o retângulo com as coordenadas de cada ponto em x e y
     O comando (fillStyle) define a cor do retângulo como verde
+    O comando (quadraticCurveTo) cria uma curva quadrática
+    A função (img.onload) carrega uma imagem na página com o comando (drawImage)
 Finalização do arquivo JS
 
 Prints da página: 
