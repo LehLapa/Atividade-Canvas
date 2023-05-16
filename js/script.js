@@ -1,4 +1,4 @@
-/*const canvas1 = document.getElementById ('canvas1');
+const canvas1 = document.getElementById ('canvas1');
 const ctx = canvas1.getContext ('2d');
 ctx.beginPath();
 ctx.arc(150, 75, 50, 0, Math.PI * 2, true);
@@ -8,7 +8,7 @@ ctx.moveTo(65, 65);
 ctx.arc(170, 65, 5, 0, Math.PI * 2, true);
 ctx.moveTo(95, 65);
 ctx.arc(130, 65, 5, 0, Math.PI * 2, true);
-ctx.stroke();*/
+ctx.stroke();
 
 const canvas2 = document.getElementById('canvas2');
 const ctx2 = canvas2.getContext('2d');
